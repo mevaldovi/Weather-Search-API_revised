@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jquery import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- moment JS import -->
+    <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Style/Reset CSS Import -->
+    <link href = "reset.css" rel = "stylesheet">
+    <link href = "style.css" rel = "stylesheet">
+
+    <title>Weather Dashboard!</title>
+</head>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div class = "row" style = "margin: auto">
+        <aside class = "col-md-4" id = "sidebar">
+            <h2>Search for a City:</h2>
+            <div class = "row m-0"><input type="text" placeholder="Houston" id = "userInfo"></div>
+            <button type="button" class="btn btn-primary" id = "submitBtn">Search</button>
+            <div class="row"><ul id = "recentSearch"></ul>
+            </div>
+        </aside>
+        <main class = "col-md-8">
+            <div class = "row h-100 rightSide" id = "currentDayWeather">
+                <h1 id = "dailyCity">City Will Be Here!</h1>
+                <div id = "dayIcon"></div>
+                <h2 id = "dayTemp">Temp: </h2>
+                <h2 id = "dayWind">Wind: </h2>
+                <h2 id = "dayHumidity">Humidity: </h2>
+                <h2>UV Index:<span id = "dayUV"></span></h2>
+            </div>
+            <div class = "row h-100 rightSide" id = "fiveDayWeather">
+                <h2>5-Day Forecast:</h2>
+                <!-- ------- Card One ------- -->
+                <div class="card text-white bg-dark mb-3 myCard">
+                    <div class="card-header myCardHeader myCardDate">day 1</div>
+                    <div class="card-body myCardBody">
+                        <h5 class="card-title myCardText myCardPhoto"></h5>
+                        <p class="card-text myCardText myCardTemp">Temp: </p>
+                        <p class="card-text myCardText myCardWind">Wind: </p>
+                        <p class="card-text myCardText myCardHumidity">Humidity: </p>
+                    </div>
+                </div>
+
+                <!-- ------- Card Two ------- -->
+                <div class="card text-white bg-dark mb-3 myCard">
+                    <div class="card-header myCardHeader myCardDate">day 2</div>
+                    <div class="card-body myCardBody">
+                        <div class="card-title myCardText myCardPhoto"></div>
+                        <p class="card-text myCardText myCardTemp">Temp: </p>
+                        <p class="card-text myCardText myCardWind">Wind: </p>
+                        <p class="card-text myCardText myCardHumidity">Humidity: </p>
+                    </div>
+                </div>
+
+                <!-- ------- Card Three ------- -->
+                <div class="card text-white bg-dark mb-3 myCard">
+                    <div class="card-header myCardHeader myCardDate">day 3</div>
+                    <div class="card-body myCardBody">
+                        <div class="card-title myCardText myCardPhoto"></div>
+                        <p class="card-text myCardText myCardTemp">Temp: </p>
+                        <p class="card-text myCardText myCardWind">Wind: </p>
+                        <p class="card-text myCardText myCardHumidity">Humidity: </p>
+                    </div>
+                </div>
+
+                <!-- ------- Card Four ------- -->
+                <div class="card text-white bg-dark mb-3 myCard">
+                    <div class="card-header myCardHeader myCardDate">day 4</div>
+                    <div class="card-body myCardBody">
+                        <div class="card-title myCardText myCardPhoto"></div>
+                        <p class="card-text myCardText myCardTemp">Temp: </p>
+                        <p class="card-text myCardText myCardWind">Wind: </p>
+                        <p class="card-text myCardText myCardHumidity">Humidity: </p>
+                    </div>
+                </div>
+                
+                <!-- ------- Card Five ------- -->
+                <div class="card text-white bg-dark mb-3 myCard">
+                    <div class="card-header myCardHeader myCardDate">day 5</div>
+                    <div class="card-body myCardBody">
+                        <div class="card-title myCardText myCardPhoto"></div>
+                        <p class="card-text myCardText myCardTemp">Temp: </p>
+                        <p class="card-text myCardText myCardWind">Wind: </p>
+                        <p class="card-text myCardText myCardHumidity">Humidity: </p>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src = "script.js"></script>
+</body>
+</html>
