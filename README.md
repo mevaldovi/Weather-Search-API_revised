@@ -3,6 +3,8 @@
 
 
 ## Description
+[Deployed Web App](https://mevaldovi.github.io/Weather-Search-API_revised/). 
+
 An easy-to-navigate weather forecast application using third-party Web APIs.
 
 ## Technology 
@@ -28,7 +30,6 @@ HTML, CSS, JavaScript, Git, and third-party Web APIs.
 [Agnowledgments](https://github.com/mevaldovi/Weather-Search-API_revised#Agknowledgments)
 
 # Installation
-[Deployed Web App](https://mevaldovi.github.io/Weather-Search-API_revised/). 
 
 If the link does not work, you can just clone down this repo, right click on the html file opened inside your code editor, and select "open in default browser". 
 # Usage
