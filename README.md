@@ -1,9 +1,12 @@
 # Weather-Search-API_revised
+
+[Deployed Web App](https://mevaldovi.github.io/Weather-Search-API_revised/). 
+
+
 <img width="942" alt="weather-Dashboard2" src="https://user-images.githubusercontent.com/83307023/135934340-99ee6f5e-b670-4cff-a9b8-a54893f6ecde.PNG">
 
 
 ## Description
-[Deployed Web App](https://mevaldovi.github.io/Weather-Search-API_revised/). 
 
 An easy-to-navigate weather forecast application using third-party Web APIs.
 
