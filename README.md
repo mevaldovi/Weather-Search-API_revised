@@ -1,6 +1,6 @@
 # Weather-Search-API_revised
 
-[Deployed Web App](https://mevaldovi.github.io/Weather-Search-API_revised/). 
+Deployed Weather App: [https://mevaldovi.github.io/Weather-Search-API_revised](https://mevaldovi.github.io/Weather-Search-API_revised). 
 
 
 <img width="942" alt="weather-Dashboard2" src="https://user-images.githubusercontent.com/83307023/135934340-99ee6f5e-b670-4cff-a9b8-a54893f6ecde.PNG">
@@ -11,7 +11,7 @@
 An easy-to-navigate weather forecast application using third-party Web APIs.
 
 ## Technology 
-HTML, CSS, JavaScript, Git, and third-party Web APIs.
+HTML, CSS, Vanilla JavaScript, and third-party Web APIs.
 
 # Table of Contents
 [Description](https://github.com/mevaldovi/Weather-Search-API_revised#Description)
@@ -34,7 +34,12 @@ HTML, CSS, JavaScript, Git, and third-party Web APIs.
 
 # Installation
 
-If the link does not work, you can just clone down this repo, right click on the html file opened inside your code editor, and select "open in default browser". 
+- No dependencies to install
+
+- Clone down this repo
+
+- Open index.html in default browser
+
 # Usage
 Simply open the application in the link above, and then type in a city name, state, or zipcode to get that location's five day forecast. 
 # License
