@@ -1,6 +1,6 @@
 # Weather-Search-API_revised
 
-Deployed Weather App: [https://mevaldovi.github.io/Weather-Search-API_revised](https://mevaldovi.github.io/Weather-Search-API_revised). 
+Deployed Weather App: [https://mevaldovi.github.io/Weather-Search-API_revised](https://mevaldovi.github.io/Weather-Search-API_revised)
 
 
 <img width="942" alt="weather-Dashboard2" src="https://user-images.githubusercontent.com/83307023/135934340-99ee6f5e-b670-4cff-a9b8-a54893f6ecde.PNG">
@@ -45,7 +45,7 @@ Simply open the application in the link above, and then type in a city name, sta
 # License
 None at this time.
 # Contact
-[Github](https://github.com/mevaldovi)
+Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
 
 
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
